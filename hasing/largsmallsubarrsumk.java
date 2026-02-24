@@ -3,7 +3,7 @@ import java.util.List;
 public class largsmallsubarrsumk {
 
     //brute force apporach 
-    //time complexcity =O(n2);
+    //time complexcity =
     public static void largestsamllestsunarr(List<Integer> arr,int k){
         int maxlength=0;
         int minlength=arr.size();

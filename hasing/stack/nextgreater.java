@@ -16,16 +16,12 @@ public class nextgreater {
             }else{
                 ans.add(s.peek());
             }
-            // if(s.peek()>arr.get(i)){
-            //     s.push(arr.get(i));
-            //     ans.add(s.peek());
-            // }
-
             s.push(arr.get(i));
         }
         reverseVector(ans);
         return ans;
     }
+    
     public static void reverseVector(Vector<Integer> ans){
         int left = 0;
         int right = ans.size() - 1;

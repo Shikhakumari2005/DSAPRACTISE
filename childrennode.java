@@ -1,6 +1,6 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+ import java.util.ArrayList;
+ import java.util.LinkedList;
+ import java.util.Queue;
 import java.util.Scanner;
 
 
@@ -11,10 +11,10 @@ public class childrennode {
        int n=sc.nextInt();
 
     //create array of arralist  
-        ArrayList<Integer>[] k=new ArrayList[n+1];
-        for (int i = 0; i <=n; i++){
-            k[i]=new  ArrayList<>();
-        }
+    ArrayList<Integer>[] k = new ArrayList[n + 1];
+    for (int i = 1; i <= n; i++) {
+        k[i] = new ArrayList<>();
+    }
        
     //for undirction graph to get its adjacent list
         int i=1;
@@ -46,4 +46,3 @@ public class childrennode {
         }
     }
 } 
-

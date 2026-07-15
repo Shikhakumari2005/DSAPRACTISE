@@ -1,13 +1,12 @@
-public class maxsumoftwosunarray {
+public class amazonmloa {
     public static void main(String[] args){
-        int[] arr1={2,3,4,-8,2};
-        int[] arr2={-5,8,3,1,-4};
+        int[] arr1={12,13,14,18,2};
         int n=arr1.length-1;
         int[] dp=new int[arr1.length];
-        dp[0]=Math.max(arr1[0], arr2[0]);
-        dp[1]=Math.max(dp[0] ,Math.max(arr1[1] ,arr2[1]));
+        dp[0]=arr1[0];
+        dp[1]=Math.abs(arr1[0]-arr1[1]);
         for(int i=2;i<arr1.length;i++){
-            dp[i]=Math.max(dp[i-1] ,Math.max(arr1[i]+dp[i-2] ,arr2[i]+dp[i-2]));
+            dp[i]=Math.abs(arr1[i]-arr1[i-1]) +dp[i-1];
         }
         System.out.println("DP Array:");
         for (int x : dp) {

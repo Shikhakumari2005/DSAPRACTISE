@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class StringCounter {
+public class countstr {
 
     // Count total characters (excluding spaces if needed)
     public static int countCharacters(String str, boolean excludeSpaces) {

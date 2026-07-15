@@ -18,10 +18,6 @@ class climbingstairs{
 
         return second;
     }
-}
-
-public class Main {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -29,7 +25,7 @@ public class Main {
         System.out.print("Enter number of stairs: ");
         int n = sc.nextInt();
 
-        Solution obj = new Solution();
+       climbingstairs obj = new climbingstairs();
 
         System.out.println("Number of ways = " + obj.climbStairs(n));
 

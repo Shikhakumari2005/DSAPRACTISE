@@ -1,6 +1,6 @@
-import java.util.HashMap;
+
 //import java.util.*;
-class validAnagram{
+//class validanagram{
     // public static boolean ValidAnagram(String str1,String str2){
 //         char[] ch1=str1.toCharArray();
 //         char[] ch2=str2.toCharArray();

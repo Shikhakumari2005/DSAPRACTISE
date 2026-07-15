@@ -1,6 +1,4 @@
-
-
-public import java.util.Scanner;
+import java.util.Scanner;
 
 public class LongestPalindrome {
 
@@ -58,6 +56,4 @@ public class LongestPalindrome {
 
         sc.close();
     }
-} longestpalin {
-    
 }

@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class longest {
+public class lonest {
 
     public static int lengthOfLongestSubstring(String s) {
 

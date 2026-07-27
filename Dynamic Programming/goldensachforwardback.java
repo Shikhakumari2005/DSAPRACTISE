@@ -6,7 +6,7 @@ public class goldensachforwardback {
         dp[0]=arr1[0];
         dp[1]=dp[0];
         for(int i=2;i<arr1.length;i++){
-            dp[i]=Math.min(dp[i-2]+ dp[i-3] ,dp[i-2];
+            dp[i]=Math.min(dp[i-2]+ dp[i-3] ,dp[i-2]);
         }
         System.out.println("DP Array:");
         for (int x : dp) {

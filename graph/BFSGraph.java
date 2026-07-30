@@ -29,7 +29,7 @@ public class BFSGraph {
         int root = 0;
 
         Queue<Integer> q = new LinkedList<>();
-        boolean[] visited = new boolean[n];
+        boolean[] visited = new boolean[100];
 
         q.offer(root);
         visited[root] = true;
